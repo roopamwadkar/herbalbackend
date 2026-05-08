@@ -20,6 +20,10 @@ mongoose.connect(mongoUri, {
   serverSelectionTimeoutMS: 10000,
   socketTimeoutMS: 45000,
   family: 4,
+  tls: true,
+  tlsAllowInvalidCertificates: false,
+  tlsAllowInvalidHostnames: false,
+  tlsMinVersion: 'TLSv1.2',
 })
   .then(() => console.log("MongoDB connected"))
   .catch((err) => {
@@ -32,17 +36,6 @@ mongoose.connect(mongoUri, {
 mongoose.connection.on("error", (err) => {
   console.error("MongoDB connection error event:", err.message || err);
 });
-
-// Require models
-const Doctor = require("./Doctor");
-const Remedy = require("./Remedy");
-const Plant = require("./Plant");
-const Feedback = require("./Feedback");
-const User = require("./User");
-
-
-
-/* ---------- SIGNUP ---------- */
 
 app.post("/signup", async (req,res)=>{
   try {
