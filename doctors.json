@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Dr. Sanjay Algude",
+    "specialization": "Homeopathy & Ayurvedic Medicine",
+    "experience": "Over 20 years of experience in integrating Homeopathy and Ayurvedic treatments",
+    "phone": "+91 9850615151",
+    "img": ""
+  },
+  {
+    "name": "Dr. Amit Sheth",
+    "specialization": "MBBS, Homeopathy & Herbal Wellness",
+    "experience": "Combines modern medicine with traditional herbal wellness approaches",
+    "phone": "+91 8275960639",
+    "img": ""
+  },
+  {
+    "name": "Dr. Priya Sharma",
+    "specialization": "Ayurvedic Medicine & Panchakarma",
+    "experience": "Renowned Ayurvedic physician specializing in Panchakarma detoxification therapies",
+    "phone": "+91 9876543210",
+    "img": ""
+  },
+  {
+    "name": "Dr. Rajesh Kumar",
+    "specialization": "Naturopathy & Yoga Therapy",
+    "experience": "Certified Naturopath and Yoga therapist with expertise in treating stress-related disorders",
+    "phone": "+91 9123456789",
+    "img": ""
+  },
+  {
+    "name": "Dr. Meena Patel",
+    "specialization": "Herbal Dermatology",
+    "experience": "Specializes in treating skin conditions using herbal and Ayurvedic formulations",
+    "phone": "+91 9988776655",
+    "img": ""
+  },
+  {
+    "name": "Dr. Arun Krishnan",
+    "specialization": "Traditional Siddha Medicine",
+    "experience": "Expert in Siddha medicine, specializing in respiratory ailments and digestive disorders",
+    "phone": "+91 9445566778",
+    "img": ""
+  }
+]
