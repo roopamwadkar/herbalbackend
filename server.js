@@ -23,7 +23,6 @@ mongoose.connect(mongoUri, {
   tls: true,
   tlsAllowInvalidCertificates: false,
   tlsAllowInvalidHostnames: false,
-  tlsMinVersion: 'TLSv1.2',
 })
   .then(() => console.log("MongoDB connected"))
   .catch((err) => {

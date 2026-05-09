@@ -42,4 +42,4 @@ Question:
     return jsonify({"response": chat_completion.choices[0].message.content})
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    app.run(host="127.0.0.1", port=5001, debug=True)
