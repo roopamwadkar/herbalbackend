@@ -4,6 +4,12 @@ const fs = require("fs")
 const cors = require("cors")
 const mongoose = require("mongoose")
 
+const Doctor = require("./Doctor")
+const Remedy = require("./Remedy")
+const Plant = require("./Plant")
+const Feedback = require("./Feedback")
+const User = require("./User")
+
 const app = express()
 
 app.use(cors())
@@ -20,9 +26,6 @@ mongoose.connect(mongoUri, {
   serverSelectionTimeoutMS: 10000,
   socketTimeoutMS: 45000,
   family: 4,
-  tls: true,
-  tlsAllowInvalidCertificates: false,
-  tlsAllowInvalidHostnames: false,
 })
   .then(() => console.log("MongoDB connected"))
   .catch((err) => {
